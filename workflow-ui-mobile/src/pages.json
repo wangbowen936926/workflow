@@ -1,0 +1,40 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "OA系统"
+			}
+		},{
+			"path": "pages/approve/index",
+			"style": {
+				"navigationBarTitleText": "审批中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#3c9cff",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"text": "首页",
+				"iconPath": "static/image/tabbar/home-icon.png",
+				"selectedIconPath": "static/image/tabbar/home-selected-icon.png",
+				"pagePath": "pages/home/index"
+			},{
+				"text": "审批",
+				"iconPath": "static/image/tabbar/approve-icon.png",
+				"selectedIconPath": "static/image/tabbar/approve-selected-icon.png",
+				"pagePath": "pages/approve/index"
+			}
+		]
+	  }
+}
