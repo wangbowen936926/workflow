@@ -1,0 +1,64 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "OA系统"
+			}
+		},{
+			"path": "pages/approve/index",
+			"style": {
+				"navigationBarTitleText": "审批中心"
+			}
+		},{
+            "path" : "pages/statistics/index",
+            "style": {
+                "navigationBarTitleText": "统计"
+            }
+        },{
+            "path" : "pages/approve/flow-details/index",
+            "style": {
+                "navigationBarTitleText": "流程详情"
+            }
+        },{
+            "path" : "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },{
+            "path" : "pages/approve/handle-to-do-tasks/index",
+            "style": {
+                "navigationBarTitleText": "处理"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "OA系统"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#3c9cff",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"text": "首页",
+				"iconPath": "static/image/tabbar/home-icon.png",
+				"selectedIconPath": "static/image/tabbar/home-selected-icon.png",
+				"pagePath": "pages/home/index"
+			},{
+				"text": "审批",
+				"iconPath": "static/image/tabbar/approve-icon.png",
+				"selectedIconPath": "static/image/tabbar/approve-selected-icon.png",
+				"pagePath": "pages/approve/index"
+			},{
+				"text": "统计",
+				"iconPath": "static/image/tabbar/statistics-icon.png",
+				"selectedIconPath": "static/image/tabbar/statistics-selected-icon.png",
+				"pagePath": "pages/statistics/index"
+			}
+		]
+	  }
+}

@@ -1,0 +1,16 @@
+.main-info{
+	padding: 10px 15px;
+	background-color: $bg-color-default;
+	display: flex;
+	flex-direction: column;
+	.label{
+		color: $text-color-inactive;
+		font-size: 28rpx;
+		margin-bottom: 12rpx;
+	}
+	.value{
+		color: #000;
+		font-size: 30rpx;
+		font-weight: 500;
+	}
+}
